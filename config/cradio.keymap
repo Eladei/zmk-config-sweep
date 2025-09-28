@@ -58,5 +58,14 @@
                                                      &none          &kp DELETE    &none      &none
             >;
         };
+
+        keyboard_adjusting {
+            bindings = <
+&sys_reset  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                            &trans  &trans    &trans  &trans
+            >;
+        };
     };
 };
