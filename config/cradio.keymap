@@ -43,7 +43,7 @@
 
         calc_and_operations {
             bindings = <
-&kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LC(Y)    &kp LC(LS(T))  &none             &none       &kp KP_N7  &kp PG_UP  &kp KP_N9  &none
+&kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LC(Y)    &kp LC(LS(T))  &none             &none       &kp KP_N7  &kp KP_N8  &kp KP_N9  &none
 &kp LC(A)          &kp LC(S)        &kp LS(TAB)  &kp LC(F)      &kp DELETE        &none       &kp KP_N4  &kp KP_N5  &kp KP_N6  &none
 &kp LC(Z)          &kp LC(X)        &kp LC(C)    &kp LC(V)      &kp LC(DELETE)    &kp KP_NUM  &kp KP_N1  &kp KP_N2  &kp KP_N3  &none
                                                  &none          &none             &kp ENTER   &kp KP_N0
@@ -56,15 +56,6 @@
 &hrm LEFT_WIN TAB  &hrm LEFT_ALT F5  &hrm LSHIFT F6  &hrm LCTRL F7  &kp F8        &kp INS    &hrm LCTRL LEFT_ARROW  &hrm LEFT_SHIFT DOWN_ARROW  &hrm LALT RIGHT_ARROW  &kp RIGHT_WIN
 &kp CAPS           &kp F9            &kp F10         &kp F11        &kp F12       &kp PSCRN  &none                  &none                       &none                  &none
                                                      &none          &kp DELETE    &none      &none
-            >;
-        };
-
-        keyboard_adjusting {
-            bindings = <
-&sys_reset  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                            &trans  &trans    &trans  &trans
             >;
         };
     };
