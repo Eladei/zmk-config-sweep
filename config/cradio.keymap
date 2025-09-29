@@ -33,7 +33,7 @@
         compatible = "zmk,combos";
 
         combo_left_bracket {
-            bindings = <&kp Z>;
+            bindings = <&kp LEFT_BRACKET>;
             key-positions = <8 9>;
         };
 
