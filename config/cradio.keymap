@@ -52,10 +52,10 @@
 
         special_keys_and_arrows {
             bindings = <
-&trans    &kp LBKT  &kp LBRC  &kp RBRC  &trans       &kp CARET  &kp LPAR   &kp RPAR   &kp RBKT  &kp TILDE
-&kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT    &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH  &kp GRAVE
-&trans    &trans    &trans    &trans    &trans       &kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE  &trans
-                              &trans    &trans       &trans     &trans
+&kp ESC   &kp F1        &kp F2          &kp F3         &kp F4        &kp END    &none                  &kp UP_ARROW            &none                  &kp TILDE
+&kp TAB   &hrm LALT F5  &hrm LSHIFT F6  &hrm LCTRL F7  &kp F8        &kp INS    &hrm LCTRL LEFT_ARROW  &hrm LSHIFT DOWN_ARROW  &hrm LALT RIGHT_ARROW  &kp LEFT_WIN
+&kp CAPS  &kp F9        &kp F10         &kp F11        &kp F12       &kp PSCRN  &none                  &none                   &none                  &none
+                                        &none          &kp DELETE    &none      &none
             >;
         };
     };
