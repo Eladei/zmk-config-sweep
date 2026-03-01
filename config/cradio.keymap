@@ -48,28 +48,37 @@
 
         main_layer {
             bindings = <
-&kp Q        &kp W        &kp E          &kp R         &kp T            &kp Y      &kp U         &kp I          &kp O        &kp P
-&hrm LGUI A  &hrm RALT S  &hrm LSHIFT D  &hrm LCTRL F  &kp G            &kp H      &hrm RCTRL J  &hrm RSHIFT K  &hrm RALT L  &hrm LWIN SEMICOLON
-&kp Z        &kp X        &kp C          &hrm LALT V   &kp B            &kp N      &hrm LALT M   &kp COMMA      &kp DOT      &kp FSLH
-                                         &lt 1 SPACE   &kp BACKSPACE    &kp ENTER  &lt 2 SPACE
+&kp Q        &kp W         &kp E          &kp R        &kp T            &kp Y      &kp U        &kp I          &kp O         &kp P
+&hrm LGUI A  &hrm LCTRL S  &hrm LSHIFT D  &lt 3 F      &kp G            &kp H      &lt 3 J      &hrm RSHIFT K  &hrm LCTRL L  &hrm LWIN SEMICOLON
+&kp Z        &kp X         &kp C          &hrm LALT V  &kp B            &kp N      &hrm LALT M  &kp COMMA      &kp DOT       &kp FSLH
+                                          &lt 1 SPACE  &kp BACKSPACE    &kp ENTER  &lt 2 SPACE
             >;
         };
 
         calc_and_operations {
             bindings = <
-&kp C_VOL_DN  &kp C_VOL_UP  &kp LC(Y)    &kp LC(LS(T))  &none             &kp KP_MULTIPLY  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_DIVIDE
-&kp LC(A)     &kp LC(S)     &kp LS(TAB)  &kp LC(F)      &kp DELETE        &kp KP_PLUS      &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
-&kp LC(Z)     &kp LC(X)     &kp LC(C)    &kp LC(V)      &kp LC(DELETE)    &kp KP_NUM       &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT
-                                         &none          &none             &kp ENTER        &kp KP_N0
+&kp C_VOL_DN         &kp C_VOL_UP      &kp LC(Y)            &kp LC(LS(T))        &none             &kp KP_MULTIPLY  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_DIVIDE
+&hrm LEFT_WIN LC(A)  &hrm LCTRL LC(S)  &hrm LSHIFT LS(TAB)  &hrm LEFT_ALT LC(F)  &kp DELETE        &kp KP_PLUS      &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
+&kp LC(Z)            &kp LC(X)         &kp LC(C)            &kp LC(V)            &kp LC(DELETE)    &kp KP_NUM       &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT
+                                                            &none                &none             &kp ENTER        &kp KP_N0
             >;
         };
 
         special_keys_and_arrows {
             bindings = <
-&kp ESC   &kp F1        &kp F2          &kp F3         &kp F4        &kp END    &none                  &kp UP_ARROW            &none                  &kp TILDE
-&kp TAB   &hrm LALT F5  &hrm LSHIFT F6  &hrm LCTRL F7  &kp F8        &kp INS    &hrm LCTRL LEFT_ARROW  &hrm LSHIFT DOWN_ARROW  &hrm LALT RIGHT_ARROW  &kp LEFT_WIN
-&kp CAPS  &kp F9        &kp F10         &kp F11        &kp F12       &kp PSCRN  &none                  &none                   &none                  &none
-                                        &none          &kp DELETE    &none      &none
+&kp ESC        &kp F1         &kp F2          &kp F3        &kp F4        &kp END    &none                 &kp UP_ARROW            &none                   &kp TILDE
+&hrm LWIN TAB  &hrm LCTRL F5  &hrm LSHIFT F6  &hrm LALT F7  &kp F8        &kp INS    &hrm LALT LEFT_ARROW  &hrm LSHIFT DOWN_ARROW  &hrm LCTRL RIGHT_ARROW  &kp LEFT_WIN
+&kp CAPS       &kp F9         &kp F10         &kp F11       &kp F12       &kp PSCRN  &none                 &none                   &none                   &none
+                                              &none         &kp DELETE    &none      &none
+            >;
+        };
+
+        special_symbols {
+            bindings = <
+&kp Q        &kp W         &kp E          &kp R        &kp T    &kp Y  &kp U        &kp I          &kp O         &kp P
+&hrm LGUI A  &hrm LCTRL S  &hrm LSHIFT D  &hrm LALT F  &kp G    &kp H  &hrm LALT J  &hrm RSHIFT K  &hrm LCTRL L  &hrm LWIN SEMICOLON
+&kp Z        &kp X         &kp C          &kp LALT     &kp B    &kp N  &kp LALT     &kp COMMA      &kp DOT       &kp FSLH
+                                          &none        &none    &none  &none
             >;
         };
     };
