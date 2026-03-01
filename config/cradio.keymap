@@ -57,9 +57,9 @@
 
         calc_and_operations {
             bindings = <
-&kp C_VOL_DN         &kp C_VOL_UP      &kp LC(Y)            &kp LC(LS(T))        &none             &kp KP_MULTIPLY  &kp N7        &kp N8        &kp N9        &kp KP_DIVIDE
-&hrm LEFT_WIN LC(A)  &hrm LCTRL LC(S)  &hrm LSHIFT LS(TAB)  &hrm LEFT_ALT LC(F)  &kp DELETE        &kp KP_PLUS      &kp N4        &kp N5        &kp NUMBER_6  &kp KP_MINUS
-&kp LC(Z)            &kp LC(X)         &kp LC(C)            &kp LC(V)            &kp LC(DELETE)    &kp KP_NUM       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_DOT
+&kp C_VOL_DN         &kp C_VOL_UP      &kp LC(F)            &kp LC(LS(Y))        &none             &kp KP_MULTIPLY  &kp N7        &kp N8        &kp N9        &kp KP_DIVIDE
+&hrm LEFT_WIN LC(A)  &hrm LCTRL LC(O)  &hrm LSHIFT LS(TAB)  &hrm LEFT_ALT LC(U)  &kp DELETE        &kp KP_PLUS      &kp N4        &kp N5        &kp NUMBER_6  &kp KP_MINUS
+&kp LC(SEMICOLON)    &kp LC(Q)         &kp LC(J)            &kp LC(K)            &kp LC(DELETE)    &kp KP_NUM       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_DOT
                                                             &none                &none             &kp ENTER        &kp N0
             >;
         };
