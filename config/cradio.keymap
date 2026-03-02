@@ -49,7 +49,7 @@
         main_layer {
             bindings = <
 &kp Q        &kp W         &kp E          &kp R        &kp T            &kp Y      &kp U        &kp I          &kp O         &kp P
-&hrm LGUI A  &hrm LCTRL S  &hrm LSHIFT D  &lt 3 F      &kp G            &kp H      &lt 3 J      &hrm RSHIFT K  &hrm LCTRL L  &hrm LWIN SEMICOLON
+&hrm LGUI A  &hrm LCTRL S  &hrm LSHIFT D  &lt 4 F      &kp G            &kp H      &lt 3 J      &hrm RSHIFT K  &hrm LCTRL L  &hrm LWIN SEMICOLON
 &kp Z        &kp X         &kp C          &hrm LALT V  &kp B            &kp N      &hrm LALT M  &kp COMMA      &kp DOT       &kp FSLH
                                           &lt 1 SPACE  &kp BACKSPACE    &kp ENTER  &lt 2 SPACE
             >;
@@ -76,6 +76,15 @@
         special_symbols {
             bindings = <
 &none                   &kp LS(NUMBER_3)          &kp LS(NUMBER_2)              &kp LS(GRAVE)     &none                &none          &kp LS(NUMBER_1)  &kp LS(SLASH)          &kp LS(SEMICOLON)   &none
+&hrm LGUI LS(NUMBER_6)  &hrm LCTRL LS(N7)         &hrm LSHIFT LS(LEFT_BRACKET)  &hrm LALT LS(N9)  &kp LEFT_BRACKET     &kp LS(MINUS)  &hrm LALT EQUAL   &hrm RSHIFT SEMICOLON  &hrm LCTRL LS(SQT)  &hrm LWIN SQT
+&kp GRAVE               &kp LS(NON_US_BACKSLASH)  &kp LS(RIGHT_BRACKET)         &kp LS(N0)        &kp RIGHT_BRACKET    &kp BACKSLASH  &kp LS(COMMA)     &kp LS(PERIOD)         &kp LS(N4)          &kp LS(N5)
+                                                                                &kp MINUS         &kp LS(EQUAL)        &kp SLASH      &kp LS(N8)
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&none                   &kp RA(HASH)              &kp LS(NUMBER_2)              &kp LS(GRAVE)     &none                &none          &kp LS(NUMBER_1)  &kp LS(SLASH)          &kp LS(SEMICOLON)   &none
 &hrm LGUI LS(NUMBER_6)  &hrm LCTRL LS(N7)         &hrm LSHIFT LS(LEFT_BRACKET)  &hrm LALT LS(N9)  &kp LEFT_BRACKET     &kp LS(MINUS)  &hrm LALT EQUAL   &hrm RSHIFT SEMICOLON  &hrm LCTRL LS(SQT)  &hrm LWIN SQT
 &kp GRAVE               &kp LS(NON_US_BACKSLASH)  &kp LS(RIGHT_BRACKET)         &kp LS(N0)        &kp RIGHT_BRACKET    &kp BACKSLASH  &kp LS(COMMA)     &kp LS(PERIOD)         &kp LS(N4)          &kp LS(N5)
                                                                                 &kp MINUS         &kp LS(EQUAL)        &kp SLASH      &kp LS(N8)
