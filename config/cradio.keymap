@@ -57,10 +57,10 @@
 
         calc_and_operations {
             bindings = <
-&kp C_VOL_DN         &kp C_VOL_UP      &kp LC(Y)          &kp LC(LS(K))             &kp LS(TAB)       &kp KP_MULTIPLY  &kp N7  &kp N8  &kp N9  &kp KP_DIVIDE
-&hrm LEFT_WIN LC(A)  &hrm LCTRL LC(S)  &hrm LSHIFT LC(F)  &hrm LEFT_ALT LC(LSHIFT)  &kp DELETE        &kp KP_PLUS      &kp N4  &kp N5  &kp N6  &kp KP_MINUS
-&kp LC(Z)            &kp LC(X)         &kp LC(C)          &kp LC(V)                 &kp LC(DELETE)    &kp KP_NUM       &kp N1  &kp N2  &kp N3  &kp KP_DOT
-                                                          &none                     &none             &kp ENTER        &kp N0
+&kp C_VOL_DN         &kp C_VOL_UP      &kp LC(Y)          &kp LC(LS(K))             &kp LS(TAB)       &kp KP_MULTIPLY  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE
+&hrm LEFT_WIN LC(A)  &hrm LCTRL LC(S)  &hrm LSHIFT LC(F)  &hrm LEFT_ALT LC(LSHIFT)  &kp DELETE        &kp KP_PLUS      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS
+&kp LC(Z)            &kp LC(X)         &kp LC(C)          &kp LC(V)                 &kp LC(DELETE)    &kp KP_NUM       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT
+                                                          &none                     &none             &kp ENTER        &kp KP_NUMBER_0
             >;
         };
 
