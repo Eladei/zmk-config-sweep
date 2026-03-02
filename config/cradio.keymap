@@ -49,7 +49,7 @@
         main_layer {
             bindings = <
 &kp Q        &kp W         &kp E          &kp R        &kp T            &kp Y      &kp U        &kp I          &kp O         &kp P
-&hrm LGUI A  &hrm LCTRL S  &hrm LSHIFT D  &lt 4 F      &kp G            &kp H      &lt 3 J      &hrm RSHIFT K  &hrm LCTRL L  &hrm LWIN SEMICOLON
+&hrm LGUI A  &hrm LCTRL S  &hrm LSHIFT D  &lt 3 F      &kp G            &kp H      &lt 3 J      &hrm RSHIFT K  &hrm LCTRL L  &hrm LWIN SEMICOLON
 &kp Z        &kp X         &kp C          &hrm LALT V  &kp B            &kp N      &hrm LALT M  &kp COMMA      &kp DOT       &kp FSLH
                                           &lt 1 SPACE  &kp BACKSPACE    &kp ENTER  &lt 2 SPACE
             >;
@@ -57,10 +57,10 @@
 
         calc_and_operations {
             bindings = <
-&kp C_VOL_DN         &kp C_VOL_UP      &kp LC(Y)               &kp LC(LS(K))        &kp LS(TAB)       &kp KP_MULTIPLY  &kp N7  &kp N8  &kp N9  &kp KP_DIVIDE
-&hrm LEFT_WIN LC(A)  &hrm LCTRL LC(S)  &hrm LSHIFT LC(LSHIFT)  &hrm LEFT_ALT LC(F)  &kp DELETE        &kp KP_PLUS      &kp N4  &kp N5  &kp N6  &kp KP_MINUS
-&kp LC(Z)            &kp LC(X)         &kp LC(C)               &kp LC(V)            &kp LC(DELETE)    &kp KP_NUM       &kp N1  &kp N2  &kp N3  &kp KP_DOT
-                                                               &none                &none             &kp ENTER        &kp N0
+&kp C_VOL_DN         &kp C_VOL_UP      &kp LC(Y)          &kp LC(LS(K))             &kp LS(TAB)       &kp KP_MULTIPLY  &kp N7  &kp N8  &kp N9  &kp KP_DIVIDE
+&hrm LEFT_WIN LC(A)  &hrm LCTRL LC(S)  &hrm LSHIFT LC(F)  &hrm LEFT_ALT LC(LSHIFT)  &kp DELETE        &kp KP_PLUS      &kp N4  &kp N5  &kp N6  &kp KP_MINUS
+&kp LC(Z)            &kp LC(X)         &kp LC(C)          &kp LC(V)                 &kp LC(DELETE)    &kp KP_NUM       &kp N1  &kp N2  &kp N3  &kp KP_DOT
+                                                          &none                     &none             &kp ENTER        &kp N0
             >;
         };
 
@@ -73,18 +73,18 @@
             >;
         };
 
-        special_symbols {
+        special_symbols_RALT {
             bindings = <
-&none                   &kp LS(NUMBER_3)          &kp LS(NUMBER_2)              &kp LS(GRAVE)     &none                &none          &kp LS(NUMBER_1)  &kp LS(SLASH)          &kp LS(SEMICOLON)   &none
-&hrm LGUI LS(NUMBER_6)  &hrm LCTRL LS(N7)         &hrm LSHIFT LS(LEFT_BRACKET)  &hrm LALT LS(N9)  &kp LEFT_BRACKET     &kp LS(MINUS)  &hrm LALT EQUAL   &hrm RSHIFT SEMICOLON  &hrm LCTRL LS(SQT)  &hrm LWIN SQT
-&kp GRAVE               &kp LS(NON_US_BACKSLASH)  &kp LS(RIGHT_BRACKET)         &kp LS(N0)        &kp RIGHT_BRACKET    &kp BACKSLASH  &kp LS(COMMA)     &kp LS(PERIOD)         &kp LS(N4)          &kp LS(N5)
-                                                                                &kp MINUS         &kp LS(EQUAL)        &kp SLASH      &kp LS(N8)
+&kp RA(Q)        &kp RA(W)         &kp RA(E)          &kp RA(R)      &kp RA(T)        &kp RA(Y)      &kp RA(U)      &kp RA(I)          &kp RA(O)         &kp RA(P)
+&hrm LGUI RA(A)  &hrm LCTRL RA(S)  &hrm LSHIFT RA(D)  &hrm LALT F    &kp RA(G)        &kp RA(H)      &hrm LALT J    &hrm RSHIFT RA(K)  &hrm LCTRL RA(L)  &hrm LWIN RA(SEMICOLON)
+&kp RA(Z)        &kp RA(X)         &kp RA(C)          &kp RA(V)      &kp RA(B)        &kp RA(N)      &kp RA(M)      &kp RA(COMMA)      &kp RA(DOT)       &kp RA(FSLH)
+                                                      &kp RA(LS(V))  &kp RA(LS(B))    &kp RA(LS(N))  &kp RA(LS(M))
             >;
         };
 
-        layer_4 {
+        special_symbols {
             bindings = <
-&none                   &kp RA(Z)                 &kp LS(NUMBER_2)              &kp LS(GRAVE)     &none                &none          &kp LS(NUMBER_1)  &kp LS(SLASH)          &kp LS(SEMICOLON)   &none
+&none                   &kp LS(NUMBER_3)          &kp LS(NUMBER_2)              &kp LS(GRAVE)     &none                &none          &kp LS(NUMBER_1)  &kp LS(SLASH)          &kp LS(SEMICOLON)   &none
 &hrm LGUI LS(NUMBER_6)  &hrm LCTRL LS(N7)         &hrm LSHIFT LS(LEFT_BRACKET)  &hrm LALT LS(N9)  &kp LEFT_BRACKET     &kp LS(MINUS)  &hrm LALT EQUAL   &hrm RSHIFT SEMICOLON  &hrm LCTRL LS(SQT)  &hrm LWIN SQT
 &kp GRAVE               &kp LS(NON_US_BACKSLASH)  &kp LS(RIGHT_BRACKET)         &kp LS(N0)        &kp RIGHT_BRACKET    &kp BACKSLASH  &kp LS(COMMA)     &kp LS(PERIOD)         &kp LS(N4)          &kp LS(N5)
                                                                                 &kp MINUS         &kp LS(EQUAL)        &kp SLASH      &kp LS(N8)
