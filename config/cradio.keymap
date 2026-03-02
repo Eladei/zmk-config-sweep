@@ -75,9 +75,9 @@
 
         special_symbols_RALT {
             bindings = <
-&kp RA(Q)        &kp RA(W)         &kp RA(E)          &kp RA(R)      &kp RA(T)        &kp RA(Y)      &kp RA(U)      &kp RA(I)          &kp RA(O)         &kp RA(P)
-&hrm LGUI RA(A)  &hrm LCTRL RA(S)  &hrm LSHIFT RA(D)  &hrm LALT F    &kp RA(G)        &kp RA(H)      &hrm LALT J    &hrm RSHIFT RA(K)  &hrm LCTRL RA(L)  &hrm LWIN RA(SEMICOLON)
-&kp RA(Z)        &kp RA(X)         &kp RA(C)          &kp RA(V)      &kp RA(B)        &kp RA(N)      &kp RA(M)      &kp RA(COMMA)      &kp RA(DOT)       &kp RA(FSLH)
+&kp RA(Q)        &kp RA(W)         &kp RA(E)          &kp RA(R)      &kp RA(T)        &kp RA(Y)      &kp RA(U)        &kp RA(I)          &kp RA(O)         &kp RA(P)
+&hrm LGUI RA(A)  &hrm LCTRL RA(S)  &hrm LSHIFT RA(D)  &hrm LALT F    &kp RA(G)        &kp RA(H)      &hrm LALT RA(J)  &hrm RSHIFT RA(K)  &hrm LCTRL RA(L)  &hrm LWIN RA(SEMICOLON)
+&kp RA(Z)        &kp RA(X)         &kp RA(C)          &kp RA(V)      &kp RA(B)        &kp RA(N)      &kp RA(M)        &kp RA(COMMA)      &kp RA(DOT)       &kp RA(FSLH)
                                                       &kp RA(LS(V))  &kp RA(LS(B))    &kp RA(LS(N))  &kp RA(LS(M))
             >;
         };
