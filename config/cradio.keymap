@@ -75,10 +75,10 @@
 
         special_symbols {
             bindings = <
-&none                   &kp LS(NUMBER_3)          &kp LS(NUMBER_2)       &kp LS(GRAVE)     &none                    &none          &kp LS(NUMBER_1)         &kp LS(LEFT_BRACKET)  &kp LS(Z)         &none
-&hrm LGUI LS(NUMBER_6)  &hrm LCTRL LS(N7)         &hrm LSHIFT LS(MINUS)  &hrm LALT LS(N9)  &kp MINUS                &kp LS(SQT)    &hrm LALT RIGHT_BRACKET  &hrm RSHIFT Z         &hrm LCTRL LS(Q)  &hrm LWIN Q
-&kp GRAVE               &kp LS(NON_US_BACKSLASH)  &kp LS(EQUAL)          &kp LS(N0)        &kp EQUAL                &kp BACKSLASH  &kp LS(W)                &kp LS(E)             &kp LS(N4)        &kp LS(N5)
-                                                                         &kp SQT           &kp LS(RIGHT_BRACKET)    &kp KP_DIVIDE  &kp KP_MULTIPLY
+&none                   &kp LS(NUMBER_3)          &kp LS(NUMBER_2)              &kp LS(GRAVE)     &none                &none          &kp LS(NUMBER_1)  &kp LS(SLASH)          &kp LS(SEMICOLON)   &none
+&hrm LGUI LS(NUMBER_6)  &hrm LCTRL LS(N7)         &hrm LSHIFT LS(LEFT_BRACKET)  &hrm LALT LS(N9)  &kp LEFT_BRACKET     &kp LS(MINUS)  &hrm LALT EQUAL   &hrm RSHIFT SEMICOLON  &hrm LCTRL LS(SQT)  &hrm LWIN SQT
+&kp GRAVE               &kp LS(NON_US_BACKSLASH)  &kp LS(RIGHT_BRACKET)         &kp LS(N0)        &kp RIGHT_BRACKET    &kp BACKSLASH  &kp LS(COMMA)     &kp LS(PERIOD)         &kp LS(N4)          &kp LS(N5)
+                                                                                &kp MINUS         &kp LS(EQUAL)        &kp SLASH      &kp LS(N8)
             >;
         };
     };
